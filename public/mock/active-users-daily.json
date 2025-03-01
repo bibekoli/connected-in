@@ -1,0 +1,37 @@
+[
+  {
+    "day": "Feb 23",
+    "male": 120,
+    "female": 100
+  },
+  {
+    "day": "Feb 24",
+    "male": 130,
+    "female": 110
+  },
+  {
+    "day": "Feb 25",
+    "male": 115,
+    "female": 95
+  },
+  {
+    "day": "Feb 26",
+    "male": 140,
+    "female": 120
+  },
+  {
+    "day": "Feb 27",
+    "male": 150,
+    "female": 130
+  },
+  {
+    "day": "Feb 28",
+    "male": 135,
+    "female": 115
+  },
+  {
+    "day": "Mar 01",
+    "male": 160,
+    "female": 140
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "hour": "00:00",
+    "activeUsers": 50
+  },
+  {
+    "hour": "01:00",
+    "activeUsers": 40
+  },
+  {
+    "hour": "02:00",
+    "activeUsers": 30
+  },
+  {
+    "hour": "03:00",
+    "activeUsers": 25
+  },
+  {
+    "hour": "04:00",
+    "activeUsers": 20
+  },
+  {
+    "hour": "05:00",
+    "activeUsers": 30
+  },
+  {
+    "hour": "06:00",
+    "activeUsers": 50
+  },
+  {
+    "hour": "07:00",
+    "activeUsers": 80
+  },
+  {
+    "hour": "08:00",
+    "activeUsers": 120
+  },
+  {
+    "hour": "09:00",
+    "activeUsers": 150
+  },
+  {
+    "hour": "10:00",
+    "activeUsers": 180
+  },
+  {
+    "hour": "11:00",
+    "activeUsers": 200
+  },
+  {
+    "hour": "12:00",
+    "activeUsers": 220
+  },
+  {
+    "hour": "13:00",
+    "activeUsers": 250
+  },
+  {
+    "hour": "14:00",
+    "activeUsers": 270
+  },
+  {
+    "hour": "15:00",
+    "activeUsers": 280
+  },
+  {
+    "hour": "16:00",
+    "activeUsers": 300
+  },
+  {
+    "hour": "17:00",
+    "activeUsers": 320
+  },
+  {
+    "hour": "18:00",
+    "activeUsers": 350
+  },
+  {
+    "hour": "19:00",
+    "activeUsers": 370
+  },
+  {
+    "hour": "20:00",
+    "activeUsers": 400
+  },
+  {
+    "hour": "21:00",
+    "activeUsers": 420
+  },
+  {
+    "hour": "22:00",
+    "activeUsers": 380
+  },
+  {
+    "hour": "23:00",
+    "activeUsers": 340
+  }
+]

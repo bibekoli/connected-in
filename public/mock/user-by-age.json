@@ -1,0 +1,26 @@
+[
+  {
+    "ageGroup": "13-17",
+    "users": 200
+  },
+  {
+    "ageGroup": "18-24",
+    "users": 500
+  },
+  {
+    "ageGroup": "25-34",
+    "users": 700
+  },
+  {
+    "ageGroup": "35-44",
+    "users": 400
+  },
+  {
+    "ageGroup": "45-54",
+    "users": 250
+  },
+  {
+    "ageGroup": "55+",
+    "users": 150
+  }
+]
