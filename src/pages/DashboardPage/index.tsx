@@ -9,7 +9,12 @@ import { Card, Row, Col } from "antd";
 
 export default function DashboardPage() {
   return (
-    <div className="p-4">
+    <div
+      style={{
+        padding: 16,
+        background: "#f0f2f5",
+        minHeight: "100vh",
+      }}>
       <Card style={{ marginBottom: 16 }}>
         <RegistrationChart />
       </Card>
