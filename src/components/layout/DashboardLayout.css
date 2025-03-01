@@ -1,0 +1,51 @@
+.dashboard-header {
+  background: #fff;
+  padding: 0 24px;
+  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 900;
+  height: 64px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.header-menu {
+  flex: 1;
+  border-bottom: none !important;
+}
+
+.header-menu .ant-menu-item {
+  color: #1a1a1a !important;
+  font-weight: 500;
+}
+
+.header-menu .ant-menu-item-selected {
+  color: #1890ff !important;
+}
+
+.header-menu .ant-menu-item:hover {
+  color: #1890ff !important;
+}
+
+.profile-button {
+  color: #1a1a1a !important;
+  font-weight: 500;
+}
+
+.dashboard-content {
+  margin-top: 64px;
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+  height: calc(100vh - 64px);
+  overflow-y: auto;
+}
