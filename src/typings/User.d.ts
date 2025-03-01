@@ -8,4 +8,11 @@ interface User {
   address: string;
   created_at: string;
   last_online: string;
+  messages: Message[];
+}
+
+interface Message {
+  message: string;
+  date: string;
+  sender: string;
 }
