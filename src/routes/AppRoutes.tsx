@@ -19,23 +19,16 @@ export default function AppRoutes() {
         <Route path="/login" element={<LoginPage />} />
 
         <Route element={<ProtectedRoute />}>
-          <Route
-            path="/*"
-            element={
-              <DashboardLayout>
-                <Routes>
-                  <Route path="/dashboard" element={<DashboardPage />} />
-                  <Route path="/chats" element={<ChatPage />} />
-                  <Route path="/profile" element={<ProfilePage />} />
-                  <Route path="/settings" element={<SettingsPage />} />
-                </Routes>
-              </DashboardLayout>
-            }
-          />
+          <Route element={<DashboardLayout />}>
+            <Route path="dashboard" element={<DashboardPage />} />
+            <Route path="chats" element={<ChatPage />} />
+            <Route path="profile" element={<ProfilePage />} />
+            <Route path="settings" element={<SettingsPage />} />
+          </Route>
         </Route>
 
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
   );
-};
+}

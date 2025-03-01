@@ -1,14 +1,13 @@
-import React from "react";
 import { useSelector } from "react-redux";
 import { Layout, Menu, Dropdown, Avatar, Button } from "antd";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate, useLocation, Outlet } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
 import { DashboardOutlined, MessageOutlined, SettingOutlined } from "@ant-design/icons";
 import "./DashboardLayout.css";
 
 const { Header, Content } = Layout;
 
-export default function DashboardLayout({ children }: { children: React.ReactNode }) {
+export default function DashboardLayout() {
   const navigate = useNavigate();
   const { logout } = useAuth();
   const location = useLocation();
@@ -60,7 +59,9 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
           </Button>
         </Dropdown>
       </Header>
-      <Content className="dashboard-content">{children}</Content>
+      <Content className="dashboard-content">
+        <Outlet />
+      </Content>
     </Layout>
   );
 };
