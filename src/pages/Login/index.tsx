@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Button, Form, Input, Typography, Card, message } from "antd";
 import { LockOutlined, PhoneOutlined } from "@ant-design/icons";
 import { useAuth } from "@/contexts/AuthContext";
@@ -15,14 +15,20 @@ message.config({
 export default function LoginPage() {
   const [form] = Form.useForm();
   const [loading, setLoading] = useState<boolean>(false);
-  const { login } = useAuth();
+  const { login, isAuthenticated } = useAuth();
   const navigate = useNavigate();
+
+  useEffect(() => {
+    if (isAuthenticated) {
+      navigate("/dashboard");
+    }
+  }, [isAuthenticated, navigate]);
 
   const onFinish = async (values: LoginFormValues) => {
     setLoading(true);
     try {
       await login(values);
-      navigate("/chat");
+      navigate("/dashboard");
     }
     catch (error) {
       const errorMsg = (error as Error).message || "Login failed. Please try again.";
