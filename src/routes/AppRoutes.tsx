@@ -7,7 +7,7 @@ import ProfilePage from "@/pages/ProfilePage";
 import RouteProgress from "@/components/RouteProgress";
 import LandingPage from "@/pages/Landing";
 import LoginPage from "@/pages/Login";
-import SettingsPage from "@/pages/SettingsPage.index";
+import SettingsPage from "@/pages/SettingsPage";
 import ChatPage from "@/pages/ChatPage";
 
 export default function AppRoutes() {
