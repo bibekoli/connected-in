@@ -38,7 +38,7 @@ export default function UserRegistrationChart() {
           <ChartLoading tip="Loading user registration data..." />
         ) : (
           <ResponsiveContainer width="100%" height={300}>
-            <LineChart width={1000} height={300} data={chartData}>
+            <LineChart width={1000} height={300} data={chartData} margin={{ top: 5, right: 0, left: -30 }}>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="date" />
               <YAxis />

@@ -38,7 +38,7 @@ const [loading, setLoading] = useState(true);
           <ChartLoading tip="Loading users active in each hour data..." />
         ) : (
           <ResponsiveContainer width="100%" height={300}>
-            <LineChart width={600} height={300} data={chartData}>
+            <LineChart width={600} height={300} data={chartData} margin={{ top: 5, right: 0, left: -30 }}>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="hour" />
               <YAxis />

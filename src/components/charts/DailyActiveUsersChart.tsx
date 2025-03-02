@@ -38,7 +38,7 @@ export default function DailyActiveUsers() {
           <ChartLoading tip="Loading daily active users data..." />
         ) : (
           <ResponsiveContainer width="100%" height={300}>
-            <BarChart width={600} height={300} data={chartData}>
+            <BarChart width={600} height={300} data={chartData} margin={{ top: 5, right: 0, left: -30 }}>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="day" />
               <YAxis />

@@ -38,7 +38,7 @@ const [loading, setLoading] = useState(true);
           <ChartLoading tip="Loading messages sent data..." />
         ) : (
           <ResponsiveContainer width="100%" height={300}>
-            <AreaChart width={600} height={300} data={chartData}>
+            <AreaChart width={600} height={300} data={chartData} margin={{ top: 5, right: 0, left: -24 }}>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="date" />
               <YAxis />
