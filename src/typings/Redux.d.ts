@@ -16,5 +16,5 @@ type ChartDataState = {
   usersByAge: any;
   userActiveEachHour: any;
   totalByGender: any;
-  userbymessagesSent: any;
+  userByMessagesSent: any;
 }
