@@ -10,6 +10,7 @@
   right: 0;
   z-index: 900;
   height: 64px;
+  justify-content: space-between;
 }
 
 .header-logo {
@@ -47,4 +48,24 @@
   border-radius: 8px;
   height: calc(100vh - 64px);
   overflow-y: auto;
+}
+
+.mobile-menu-button {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .header-menu {
+    display: none;
+  }
+
+  .profile-button {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile-menu-button {
+    display: none;
+  }
 }
