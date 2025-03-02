@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { Typography, List, Input, Button, Avatar, Skeleton, InputRef } from "antd";
-import { SearchOutlined, UserOutlined, SendOutlined, InfoCircleOutlined } from "@ant-design/icons";
+import { SearchOutlined, UserOutlined, SendOutlined, InfoCircleOutlined, ArrowLeftOutlined } from "@ant-design/icons";
 import { useNavigate, useParams } from "react-router-dom";
 import { getCustomersData } from "@/services/customer";
 import "./ChatPage.css";
@@ -21,10 +21,19 @@ export default function ChatPage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [loadingCustomers, setLoadingCustomers] = useState(false);
   const [loadingMessages, setLoadingMessages] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   const chatContainerRef = useRef<HTMLDivElement>(null);
   const customers = useSelector((state: ReduxState) => state.customers);
   const currentUser = useSelector((state: ReduxState) => state.currentUser);
   const messageBoxRef = useRef<InputRef>(null);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   useEffect(() => {
     const fetchCustomers = async () => {
@@ -48,18 +57,16 @@ export default function ChatPage() {
     if (!customerId || customers.length === 0) return;
 
     setLoadingMessages(true);
-    const selectedCustomer = customers.find((customer) => customer.user_id.toString() === customerId);
-
-    if (selectedCustomer) {
-      setSelectedCustomer(selectedCustomer);
-      const formattedMessages = formatMessagesWithDateSeparators(selectedCustomer.messages);
+    const selected = customers.find((customer) => customer.user_id.toString() === customerId);
+    if (selected) {
+      setSelectedCustomer(selected);
+      const formattedMessages = formatMessagesWithDateSeparators(selected.messages);
       setMessages(formattedMessages);
     }
     else {
       setSelectedCustomer(null);
       setMessages([]);
     }
-
     if (messageBoxRef.current) {
       messageBoxRef.current.focus();
     }
@@ -73,13 +80,8 @@ export default function ChatPage() {
     navigate(`/chats/${customer.user_id}`);
   };
 
-  const showProfileDrawer = () => {
-    setVisible(true);
-  };
-
-  const closeProfileDrawer = () => {
-    setVisible(false);
-  };
+  const showProfileDrawer = () => setVisible(true);
+  const closeProfileDrawer = () => setVisible(false);
 
   const sendMessage = () => {
     if (newMessage.trim() && selectedCustomer) {
@@ -102,22 +104,25 @@ export default function ChatPage() {
     customer.name.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
+  const handleBackToList = () => {
+    setSelectedCustomer(null);
+    navigate("/chats");
+  };
+
   return (
     <div className="chat-page-container">
-      <div className="customer-list">
-        <Title level={4}>Chats</Title>
-        <Input
-          placeholder="Search customers"
-          prefix={<SearchOutlined />}
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-          style={{
-            marginBottom: 16,
-          }}
-        />
-        <div className="customer-list-container">
-          {
-            loadingCustomers ? (
+      {(!isMobile || !selectedCustomer) && (
+        <div className="customer-list">
+          <Title level={4}>Chats</Title>
+          <Input
+            placeholder="Search customers"
+            prefix={<SearchOutlined />}
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            style={{ marginBottom: 16 }}
+          />
+          <div className="customer-list-container">
+            {loadingCustomers ? (
               <Skeleton active paragraph={{ rows: 5 }} />
             ) : (
               <List
@@ -144,34 +149,42 @@ export default function ChatPage() {
                   </List.Item>
                 )}
               />
-            )
-          }
+            )}
+          </div>
         </div>
-      </div>
+      )}
 
-      <div className="chat-container">
-        {selectedCustomer ? (
-          <>
-            <div className="chat-header">
-              <Avatar icon={<UserOutlined />} src={selectedCustomer.avatar} size={42} />
-              <div>
-                <Title level={4} style={{ margin: "0 0 0 10px" }}>
-                  {selectedCustomer.name}
-                </Title>
-                <Text type="secondary" style={{ fontSize: 12, marginLeft: 10 }}>
-                  Active {getTimeAgo(selectedCustomer.last_online)}
-                </Text>
+      {(isMobile && selectedCustomer) || !isMobile ? (
+        <div className="chat-container">
+          {selectedCustomer ? (
+            <>
+              <div className="chat-header">
+                {isMobile && (
+                  <Button
+                    type="text"
+                    icon={<ArrowLeftOutlined />}
+                    onClick={handleBackToList}
+                    style={{ marginRight: 8 }}
+                  />
+                )}
+                <Avatar icon={<UserOutlined />} src={selectedCustomer.avatar} size={42} />
+                <div>
+                  <Title level={4} style={{ margin: "0 0 0 10px" }}>
+                    {selectedCustomer.name}
+                  </Title>
+                  <Text type="secondary" style={{ fontSize: 12, marginLeft: 10 }}>
+                    Active {getTimeAgo(selectedCustomer.last_online)}
+                  </Text>
+                </div>
+                <Button
+                  type="text"
+                  icon={<InfoCircleOutlined />}
+                  onClick={showProfileDrawer}
+                  style={{ marginLeft: "auto" }}
+                />
               </div>
-              <Button
-                type="text"
-                icon={<InfoCircleOutlined />}
-                onClick={showProfileDrawer}
-                style={{ marginLeft: "auto" }}
-              />
-            </div>
-            <div className="messages-container" ref={chatContainerRef}>
-              {
-                loadingMessages ? (
+              <div className="messages-container" ref={chatContainerRef}>
+                {loadingMessages ? (
                   <Skeleton active paragraph={{ rows: 10 }} />
                 ) : (
                   messages.map((msg, index) =>
@@ -204,27 +217,29 @@ export default function ChatPage() {
                       </div>
                     )
                   )
-                )
-              }
-            </div>
-            <div className="message-input">
-              <Input
-                autoFocus
-                ref={messageBoxRef}
-                value={newMessage}
-                onChange={(e) => setNewMessage(e.target.value)}
-                onPressEnter={sendMessage}
-                placeholder="Type a message..."
-                suffix={<Button type="primary" icon={<SendOutlined />} onClick={sendMessage} />}
-              />
-            </div>
-          </>
-        ) : (
-          <div className="no-chat-selected">
-            <Text>Select a customer to start chatting</Text>
-          </div>
-        )}
-      </div>
+                )}
+              </div>
+              <div className="message-input">
+                <Input
+                  autoFocus
+                  ref={messageBoxRef}
+                  value={newMessage}
+                  onChange={(e) => setNewMessage(e.target.value)}
+                  onPressEnter={sendMessage}
+                  placeholder="Type a message..."
+                  suffix={<Button type="primary" icon={<SendOutlined />} onClick={sendMessage} />}
+                />
+              </div>
+            </>
+          ) : (
+            !isMobile && (
+              <div className="no-chat-selected">
+                <Text>Select a customer to start chatting</Text>
+              </div>
+            )
+          )}
+        </div>
+      ) : null}
 
       <ProfileDrawer
         visible={visible}
