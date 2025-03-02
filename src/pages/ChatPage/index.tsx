@@ -50,7 +50,10 @@ export default function ChatPage() {
         setLoadingCustomers(false);
       }
     };
-    fetchCustomers();
+
+    if (customers.length === 0) {
+      fetchCustomers();
+    }
   }, []);
 
   useEffect(() => {
