@@ -3,18 +3,26 @@ import { useState, useEffect } from "react";
 import { Typography, message } from "antd";
 import { getDailyActiveUsersData } from "@/services/chart";
 import ChartLoading from "@/components/Loading/ChartLoading";
+import { useDispatch, useSelector } from "react-redux";
+import { updateChartData } from "@/redux/actions/chartDataAction";
 
 export default function DailyActiveUsers() {
   const [loading, setLoading] = useState(true);
-  const [activeUserData, setActiveUserData] = useState();
+  const chartData = useSelector((state: ReduxState) => state.chartData.dailyActiveUser);
+  const dispatch = useDispatch();
 
   useEffect(() => {
     (async () => {
       try {
-        await new Promise((resolve) => setTimeout(resolve, 1000));
-        const data = await getDailyActiveUsersData();
-        setActiveUserData(data);
-        setLoading(false);
+        if (!chartData) {
+          await new Promise((resolve) => setTimeout(resolve, 1000));
+          const data = await getDailyActiveUsersData();
+          dispatch(updateChartData({ dailyActiveUser: data }));
+          setLoading(false);
+        }
+        else {
+          setLoading(false);
+        }
       }
       catch (error) {
         message.error("Failed to fetch daily active users data");
@@ -30,7 +38,7 @@ export default function DailyActiveUsers() {
           <ChartLoading tip="Loading daily active users data..." />
         ) : (
           <ResponsiveContainer width="100%" height={300}>
-            <BarChart width={600} height={300} data={activeUserData}>
+            <BarChart width={600} height={300} data={chartData}>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="day" />
               <YAxis />
