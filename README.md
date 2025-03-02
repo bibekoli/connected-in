@@ -35,3 +35,8 @@ npm start
 - [x] Chat - send messages
 - [x] Profile - view and update profile
 - [x] Logout
+
+## Test Login Credentials
+
+- Phone: `9812345678`
+- Password: `123456`
