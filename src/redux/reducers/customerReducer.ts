@@ -4,25 +4,26 @@ export const customerReducer = (state = [] as User[], action: ReduxActions) => {
   switch (action.type) {
     case reduxTypes.UPDATE_CUSTOMER:
       return action.payload;
-    case reduxTypes.UPDATE_MESSAGE:
-      const { sender, customer_id, message } = action.payload;
-      const updatedCustomers = state.map((customer) => {
-        if (customer.user_id === customer_id) {
-          return {
-            ...customer,
-            messages: [
-              ...customer.messages,
-              {
-                message,
-                sender,
-                date: new Date().toISOString(),
-              },
-            ],
-          };
+      case reduxTypes.UPDATE_MESSAGE:
+        const { sender, customer_id, message } = action.payload;
+        const customerToUpdate = state.find((customer) => customer.user_id === customer_id);
+        if (!customerToUpdate) {
+          return state;
         }
-        return customer;
-      });
-      return updatedCustomers;
+        const updatedCustomer = {
+          ...customerToUpdate,
+          messages: [
+            ...customerToUpdate.messages,
+            {
+              message,
+              sender,
+              date: new Date().toISOString(),
+            },
+          ],
+        };
+        const otherCustomers = state.filter((customer) => customer.user_id !== customer_id);
+        const updatedCustomers = [updatedCustomer, ...otherCustomers];
+        return updatedCustomers;
     default:
       return state;
   }
