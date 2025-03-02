@@ -6,4 +6,15 @@ type ReduxActions = {
 type ReduxState = {
   currentUser: User;
   customers: User[];
+  chartData: ChartDataState;
+}
+
+type ChartDataState = {
+  userRegistered: any;
+  dailyActiveUser: any;
+  dailyMessagesSent: any;
+  usersByAge: any;
+  userActiveEachHour: any;
+  totalByGender: any;
+  userbymessagesSent: any;
 }
