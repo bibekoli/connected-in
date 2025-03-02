@@ -1,235 +1,190 @@
 [
   {
     "user_id": "1",
-    "name": "John Doe",
-    "email": "john.doe@example.com",
+    "name": "Eliza Karki",
+    "email": "elizaa@example.com",
     "phone": "9800000000",
-    "avatar": "https://i.pravatar.cc/300",
+    "avatar": "https://i.pravatar.cc/300?img=1",
     "address": "Jhapa, Nepal",
     "created_at": "2025-02-28T00:00:00Z",
     "last_online": "2025-02-28T10:15:30Z",
     "messages": [
       {
-        "message": "Aja bihan ko mausam dherai ramro chha.",
+        "message": "Hey, have you been working on any cool programming projects lately?",
         "date": "2024-02-01T00:00:00Z",
         "sender": 1
       },
       {
-        "message": "Bihan ko chiya pachi kaam thalo lagyo.",
+        "message": "Yeah, I’ve been tinkering with a Python script to automate some tasks. What about you?",
         "date": "2024-02-01T01:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Karyalaya ko traffic le thakai diyeko chha.",
+        "message": "I’m trying to build a small web app with React. It’s challenging but fun!",
         "date": "2024-02-01T02:00:00Z",
-        "sender": 100
+        "sender": 1
       },
       {
-        "message": "Aaja meeting pani cha, taiyaar hunu parcha.",
+        "message": "Nice! React is awesome. Have you tried hooks yet?",
         "date": "2024-02-01T03:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Karyalaya ko kaam sajilo chhaina.",
+        "message": "Yes, hooks are a game-changer. I’m using useState and useEffect a lot.",
         "date": "2024-02-01T04:00:00Z",
         "sender": 1
       },
       {
-        "message": "Bikal ko khana parivar sanga saajha garna padhyo.",
+        "message": "Totally agree. Have you looked into Redux for state management?",
         "date": "2024-02-01T05:00:00Z",
-        "sender": 100
+        "sender": 51
       },
       {
-        "message": "School bata purano mitra sanga kura bhayo.",
+        "message": "I’ve heard of it but haven’t tried it yet. Is it worth learning?",
         "date": "2024-02-01T06:00:00Z",
         "sender": 1
       },
       {
-        "message": "Mausam ramro bhayeko le bahira ghumna man lagyo.",
+        "message": "Definitely, especially for bigger apps. It keeps things organized.",
         "date": "2024-02-01T07:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Sathi haru sanga pharkera basera kura garne ichchha cha.",
+        "message": "Cool, I’ll give it a shot. Any good tutorials you recommend?",
         "date": "2024-02-01T08:00:00Z",
-        "sender": 100
+        "sender": 1
       },
       {
-        "message": "Aja ko din ananda ra shanti le bhariyeko chha.",
+        "message": "Check out the official Redux docs or Traversy Media on YouTube.",
         "date": "2024-02-01T09:00:00Z",
-        "sender": 50
+        "sender": 51
+      },
+      {
+        "message": "Thanks! I’ll start with that after work today.",
+        "date": "2024-02-01T10:00:00Z",
+        "sender": 1
+      },
+      {
+        "message": "No problem. Let me know how it goes!",
+        "date": "2024-02-01T11:00:00Z",
+        "sender": 51
+      },
+      {
+        "message": "Will do. Maybe we can collaborate on a project sometime?",
+        "date": "2024-02-01T12:00:00Z",
+        "sender": 1
       }
     ]
   },
   {
     "user_id": "2",
-    "name": "Laxmi Karki",
+    "name": "Kiran Dahal",
     "email": "laxmi.karki@example.com",
     "phone": "9848901234",
-    "avatar": "https://i.pravatar.cc/300",
+    "avatar": "https://i.pravatar.cc/300?img=2",
     "address": "Itahari, Nepal",
     "created_at": "2025-02-28T00:00:00Z",
     "last_online": "2025-02-28T09:15:30Z",
     "messages": [
       {
-        "message": "Pokhara ko jhil ko drishya adbhut cha.",
+        "message": "Aja space ko barema kura garau?",
         "date": "2024-02-01T00:00:00Z",
         "sender": 2
       },
       {
-        "message": "Maile naya restaurant ma khana khaye, swad ramro thiyo.",
+        "message": "Hajur, space dherai interesting chha. Tapaile k cha favorite topic?",
         "date": "2024-02-01T01:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Tour guide le sanskritik katha sunayo.",
+        "message": "Malai Mars ko barema padhna man parchha. Tyo red planet amazing chha!",
         "date": "2024-02-01T02:00:00Z",
-        "sender": 100
+        "sender": 2
       },
       {
-        "message": "Pahar haru ko shobha anupam cha.",
+        "message": "Mars cool chha. Elon Musk ko SpaceX le tyaha colony banaune plan chha bhanchhan.",
         "date": "2024-02-01T03:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Yatra ma naya anubhav haru hunchan.",
+        "message": "Hajur, tyo plan sachchai hola? Mars ma basna kasto hola?",
         "date": "2024-02-01T04:00:00Z",
         "sender": 2
       },
       {
-        "message": "Chiya ko dukaan ma bhet bhayo, kura ramailo bhayo.",
+        "message": "Challenging hola, tara technology le sabai possible banauchha.",
         "date": "2024-02-01T05:00:00Z",
-        "sender": 100
+        "sender": 51
       },
       {
-        "message": "Local bazaar ko bhav ra kala manparyo.",
+        "message": "Malai Mars ko photo haru herna man lagyo. NASA le dherai pathauchha.",
         "date": "2024-02-01T06:00:00Z",
         "sender": 2
       },
       {
-        "message": "Sangeet ra nritya karyakram le dil khusi banayo.",
+        "message": "Hajur, Curiosity rover ka photo haru amazing chhan. Seen them?",
         "date": "2024-02-01T07:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Mausam anusar, prakriti le ramailo drishya diyeko cha.",
+        "message": "Herna baki chha. Aja herchu, ani tapailai vanchu!",
         "date": "2024-02-01T08:00:00Z",
-        "sender": 100
+        "sender": 2
       },
       {
-        "message": "Yatra ko yojana dherai sujhabpurna thiyo.",
+        "message": "Great, let me know what you think!",
         "date": "2024-02-01T09:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Saharko sanskriti ra parampara anupam cha.",
+        "message": "Sure, ani space travel ko future kasto hola?",
         "date": "2024-02-01T10:00:00Z",
         "sender": 2
       },
       {
-        "message": "Mero anubhav le dil khusi banayo.",
+        "message": "Maybe we’ll all be space tourists one day!",
         "date": "2024-02-01T11:00:00Z",
-        "sender": 100
+        "sender": 51
       },
       {
-        "message": "Bagaicha ra park ma shaanti bhayo.",
+        "message": "Yo sochera exciting lagchha!",
         "date": "2024-02-01T12:00:00Z",
         "sender": 2
       },
       {
-        "message": "Sathi sanga purano katha kura garne anand.",
+        "message": "Hajur, future dherai ramro hunechha.",
         "date": "2024-02-01T13:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Saharik drishya le man mohit paryo.",
+        "message": "Space exploration le duniya badalchha hola.",
         "date": "2024-02-01T14:00:00Z",
-        "sender": 100
+        "sender": 2
       },
       {
-        "message": "Yatra ko samaya badalera naya anubhav diyeko cha.",
+        "message": "Definitely. It’s already started!",
         "date": "2024-02-01T15:00:00Z",
-        "sender": 2
+        "sender": 51
       },
       {
-        "message": "Nadi kinaara ma aaram paine thau cha.",
+        "message": "Aja yo kura garda maza aayo.",
         "date": "2024-02-01T16:00:00Z",
-        "sender": 50
+        "sender": 2
       },
       {
-        "message": "Local kala ra hastakala dekhna paye.",
+        "message": "Malai pani. Fer space ko kura garau!",
         "date": "2024-02-01T17:00:00Z",
-        "sender": 100
+        "sender": 51
       },
       {
-        "message": "Purano thau ma itihas ko sparsha mahsoos bhayo.",
+        "message": "Ok, next time black hole ko barema?",
         "date": "2024-02-01T18:00:00Z",
-        "sender": 50
+        "sender": 2
       },
       {
-        "message": "Subah ko chamkilo ujyaaro le dil ramailo paryo.",
+        "message": "Perfect, tyo pani dherai interesting chha!",
         "date": "2024-02-01T19:00:00Z",
-        "sender": 2
-      },
-      {
-        "message": "Restaurant ma mitho khana ko anand anupam thiyo.",
-        "date": "2024-02-01T20:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Hawa ko taazgi le yatra lai yaadgar banayo.",
-        "date": "2024-02-01T21:00:00Z",
-        "sender": 2
-      },
-      {
-        "message": "Prakritik drishya le man lai chhune jasto lagyo.",
-        "date": "2024-02-01T22:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Yatra sambandhi bibidh kura sikaune mauka milyo.",
-        "date": "2024-02-01T23:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Sundar drishya le yatra yaadgar banayo.",
-        "date": "2024-02-02T00:00:00Z",
-        "sender": 2
-      },
-      {
-        "message": "Sathi haru sanga mitho samay bitayo.",
-        "date": "2024-02-02T01:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Kalakar haru ko pradarshani le anand diyeko cha.",
-        "date": "2024-02-02T02:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Saharik sanskriti ko roop le dil chhuye.",
-        "date": "2024-02-02T03:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Yatra ko kram ma thulo upahaar milyo.",
-        "date": "2024-02-02T04:00:00Z",
-        "sender": 2
-      },
-      {
-        "message": "Bistarai yatra ko anand badhdai gayo.",
-        "date": "2024-02-02T05:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Antya ma sabai sanga mitho samay bitayo.",
-        "date": "2024-02-02T06:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Yatra ko antim pal le man chhoyo.",
-        "date": "2024-02-02T07:00:00Z",
-        "sender": 2
+        "sender": 51
       }
     ]
   },
@@ -238,160 +193,110 @@
     "name": "Anita Bhandari",
     "email": "anita.bhandari@example.com",
     "phone": "9854567890",
-    "avatar": "https://i.pravatar.cc/300",
+    "avatar": "https://i.pravatar.cc/300?img=3",
     "address": "Damak, Nepal",
     "created_at": "2025-02-28T00:00:00Z",
     "last_online": "2025-02-28T08:15:35Z",
     "messages": [
       {
-        "message": "College ko class aaja subah shuru bhayo.",
+        "message": "Black holes ko barema kehi thaha chha?",
         "date": "2024-02-01T00:00:00Z",
         "sender": 3
       },
       {
-        "message": "Teacher le naya vishay ko parichaya diyera man ramailo bhayo.",
+        "message": "Hajur, thaha chha. They’re super mysterious, right?",
         "date": "2024-02-01T01:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Assignment ko deadline nikaalera thakai lagyo.",
+        "message": "Hajur, malai tyo event horizon ko concept dherai amazing lagchha.",
         "date": "2024-02-01T02:00:00Z",
-        "sender": 100
+        "sender": 3
       },
       {
-        "message": "Library ma kitabh haru padhda gyaan badhcha.",
+        "message": "Yeah, once you cross it, there’s no coming back!",
         "date": "2024-02-01T03:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Group project ma sahayog ra milap anivarya chha.",
+        "message": "Tyahi ta, ani time pani slow hunchha bhanchan ni.",
         "date": "2024-02-01T04:00:00Z",
         "sender": 3
       },
       {
-        "message": "Lunch break ma campus ko hawa ramro lagyo.",
+        "message": "Exactly, Einstein’s relativity in action. Mind-blowing!",
         "date": "2024-02-01T05:00:00Z",
-        "sender": 100
+        "sender": 51
       },
       {
-        "message": "Classmate sanga project ko vishay ma gahiro charcha bhayo.",
+        "message": "Malai black hole ko photo herna man chha.",
         "date": "2024-02-01T06:00:00Z",
         "sender": 3
       },
       {
-        "message": "Computer lab ma research garnu anandadayak chha.",
+        "message": "2019 ma first black hole image capture bhayo, seen it?",
         "date": "2024-02-01T07:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Prashna uthaera charcha garna man lagyo.",
+        "message": "Herna baki chha, kaha herne?",
         "date": "2024-02-01T08:00:00Z",
-        "sender": 100
+        "sender": 3
       },
       {
-        "message": "Assignment submit garepachi thakai mityo.",
+        "message": "Google ‘Event Horizon Telescope’—tyo amazing chha!",
         "date": "2024-02-01T09:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Campus ko library shant ra aaramdayak chha.",
+        "message": "Thanks, aja herchu ani tapailai vanchu.",
         "date": "2024-02-01T10:00:00Z",
         "sender": 3
       },
       {
-        "message": "Professor sanga sahayog ko kura ma vishwas badhyo.",
+        "message": "Cool, let me know your thoughts!",
         "date": "2024-02-01T11:00:00Z",
-        "sender": 100
+        "sender": 51
       },
       {
-        "message": "Raat ko self-study le gyaan badhauchha.",
+        "message": "Black hole le sabai kura tudne power kaha bata aunchha?",
         "date": "2024-02-01T12:00:00Z",
         "sender": 3
       },
       {
-        "message": "Exam preparation ma dhyan kendrit garna jaruri cha.",
+        "message": "Gravity—mass collapse garda insane force banchha.",
         "date": "2024-02-01T13:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Ghar jaanu agadi thap padhai garne bichar.",
+        "message": "Yo science dherai deep chha!",
         "date": "2024-02-01T14:00:00Z",
-        "sender": 100
+        "sender": 3
       },
       {
-        "message": "Study group sanga bistarai vishay bujhna sakiyo.",
+        "message": "Hajur, ani fun pani chha.",
         "date": "2024-02-01T15:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Career ko lagi research important cha.",
+        "message": "Aja black hole ko kura garda maza aayo.",
         "date": "2024-02-01T16:00:00Z",
         "sender": 3
       },
       {
-        "message": "Project discussion le naya soch jagayo.",
+        "message": "Malai pani. Next time kehi aru kura garau?",
         "date": "2024-02-01T17:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "College ko environment le utsah badhauchha.",
+        "message": "Space travel ko barema kura garau?",
         "date": "2024-02-01T18:00:00Z",
-        "sender": 100
+        "sender": 3
       },
       {
-        "message": "Prayog garera sikne paddhati le man lai chhuye.",
+        "message": "Perfect, tyo pani dherai exciting chha!",
         "date": "2024-02-01T19:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Future planning ma academic goal pradhan cha.",
-        "date": "2024-02-01T20:00:00Z",
-        "sender": 3
-      },
-      {
-        "message": "Study session pachi aram garna man lagyo.",
-        "date": "2024-02-01T21:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Sahaj upaya le kathin kura bujhna sakiyo.",
-        "date": "2024-02-01T22:00:00Z",
-        "sender": 3
-      },
-      {
-        "message": "Aaja ko din padhai ma safal raho.",
-        "date": "2024-02-01T23:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Din bhar ko parishram le gyaan bharpur bhayo.",
-        "date": "2024-02-02T00:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "College ko sanskar ra discipline amulya cha.",
-        "date": "2024-02-02T01:00:00Z",
-        "sender": 3
-      },
-      {
-        "message": "Mitiharu sanga anubhav baantna ramro lagyo.",
-        "date": "2024-02-02T02:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Padhai sanga sangai jeevan ko yojana banaune.",
-        "date": "2024-02-02T03:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Aasha ra mehanat le safalta dinchha.",
-        "date": "2024-02-02T04:00:00Z",
-        "sender": 3
-      },
-      {
-        "message": "Anubhav haru le jeevan ma naya disha dinchha.",
-        "date": "2024-02-02T05:00:00Z",
-        "sender": 50
+        "sender": 51
       }
     ]
   },
@@ -400,150 +305,110 @@
     "name": "Sunita Nepal",
     "email": "sunita.nepal@example.com",
     "phone": "9806789012",
-    "avatar": "https://i.pravatar.cc/300",
+    "avatar": "https://i.pravatar.cc/300?img=4",
     "address": "Tansen, Nepal",
     "created_at": "2025-02-28T00:00:00Z",
     "last_online": "2025-02-28T09:25:40Z",
     "messages": [
       {
-        "message": "Cricket match herda man utsahit bhayo.",
+        "message": "Travel ko plan chha ki chaina aja?",
         "date": "2024-02-01T00:00:00Z",
         "sender": 4
       },
       {
-        "message": "Stadium ko mahol le josh badhaayo.",
+        "message": "Kehi plan chaina, tara travel ko kura garda maza hunchha!",
         "date": "2024-02-01T01:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Team ko strategy baata jeet ko aasha lagyo.",
+        "message": "Malai Europe ghumna man chha, especially Italy.",
         "date": "2024-02-01T02:00:00Z",
-        "sender": 100
+        "sender": 4
       },
       {
-        "message": "Match ko pahilo inning ma ramailo khel dekhiyo.",
+        "message": "Italy amazing chha—pizza, pasta, ani Rome ko history!",
         "date": "2024-02-01T03:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Stadium bhitra ko awaj le dil dhadkan badhaayo.",
+        "message": "Hajur, ani Venice ko canal ride pani try garnu chha.",
         "date": "2024-02-01T04:00:00Z",
         "sender": 4
       },
       {
-        "message": "Halchal ra utsah anupam dekhiyo.",
+        "message": "Venice ko photo haru herda pani wow lagchha.",
         "date": "2024-02-01T05:00:00Z",
-        "sender": 100
+        "sender": 51
       },
       {
-        "message": "Match pachi post-match analysis ma gahiro charcha bhayo.",
+        "message": "Malai Nepal mai pani Mustang ghumna man chha.",
         "date": "2024-02-01T06:00:00Z",
         "sender": 4
       },
       {
-        "message": "Telecast ko commentary le man ramailo paryo.",
+        "message": "Mustang ko landscape dherai unique chha, gako chhau?",
         "date": "2024-02-01T07:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Player ko performance le dherai prashansa paayo.",
+        "message": "Chaina, tara plan ma chha. Tapaile?",
         "date": "2024-02-01T08:00:00Z",
-        "sender": 100
+        "sender": 4
       },
       {
-        "message": "Raat ko match ma taja updates ramailo lagyo.",
+        "message": "Ma pani plan ma rakheko chu, maybe sano trip banau?",
         "date": "2024-02-01T09:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Team ko coordination dekhda utsah badhaayo.",
+        "message": "Ramro idea! Kati din ko plan banau?",
         "date": "2024-02-01T10:00:00Z",
         "sender": 4
       },
       {
-        "message": "Sportsmanship ra fair-play ma dhyan diyeko cha.",
+        "message": "4-5 din ramro hola, Mustang fully explore garna.",
         "date": "2024-02-01T11:00:00Z",
-        "sender": 100
+        "sender": 51
       },
       {
-        "message": "Live match ko updates social media ma share bhayo.",
+        "message": "Perfect, tyo plan finalize garau!",
         "date": "2024-02-01T12:00:00Z",
         "sender": 4
       },
       {
-        "message": "Ekdam maja lagyo, khel ko utsah ramro cha.",
+        "message": "Hajur, details pachi discuss garau.",
         "date": "2024-02-01T13:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Aaja ko match le naya record banayo.",
+        "message": "Travel ko kura garda din bitiyo!",
         "date": "2024-02-01T14:00:00Z",
-        "sender": 100
+        "sender": 4
       },
       {
-        "message": "Final score le sabai lai khushipurna banaidiyo.",
+        "message": "Hajur, maza aayo!",
         "date": "2024-02-01T15:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Khel prati lagan ra utsah anivarya cha.",
+        "message": "Next time food ko barema kura garau?",
         "date": "2024-02-01T16:00:00Z",
         "sender": 4
       },
       {
-        "message": "Media le khel ko taja updates diyeko cha.",
+        "message": "Good idea, food pani fun topic chha!",
         "date": "2024-02-01T17:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Antim pal ma jeet ko jashn manayo.",
+        "message": "Ok, see you next time!",
         "date": "2024-02-01T18:00:00Z",
-        "sender": 100
+        "sender": 4
       },
       {
-        "message": "Sports ko mahima ra utsah sabai ma chhayo.",
+        "message": "Bye, take care!",
         "date": "2024-02-01T19:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Aaja ko khel le man laai josh diyeko cha.",
-        "date": "2024-02-01T20:00:00Z",
-        "sender": 4
-      },
-      {
-        "message": "Post-match interview ma kheladi haru le kura garne.",
-        "date": "2024-02-01T21:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Asha cha, agami match pani yesto nai hunos.",
-        "date": "2024-02-01T22:00:00Z",
-        "sender": 4
-      },
-      {
-        "message": "Raat ko commentary le kura badhaayo.",
-        "date": "2024-02-01T23:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Khel ko utsah le sabai ko man chhuyo.",
-        "date": "2024-02-02T00:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Team ko spirit le jeet ko marg dekhayo.",
-        "date": "2024-02-02T01:00:00Z",
-        "sender": 4
-      },
-      {
-        "message": "Kheladi haru bich ko sahayog ma vishwas cha.",
-        "date": "2024-02-02T02:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Asha chha, aaja ko khel yadgar rahos.",
-        "date": "2024-02-02T03:00:00Z",
-        "sender": 100
+        "sender": 51
       }
     ]
   },
@@ -552,150 +417,110 @@
     "name": "Mohan Rajbanshi",
     "email": "mohan.rajbanshi@example.com",
     "phone": "9817890123",
-    "avatar": "https://i.pravatar.cc/300",
+    "avatar": "https://i.pravatar.cc/300?img=5",
     "address": "Janakpur, Nepal",
     "created_at": "2025-02-28T00:00:00Z",
     "last_online": "2025-02-28T10:05:15Z",
     "messages": [
       {
-        "message": "Hami ko samudaay ma paryawaran ko mahatwa bujhna jaruri cha.",
+        "message": "Artificial Intelligence ko barema kehi kura garau?",
         "date": "2024-02-01T00:00:00Z",
         "sender": 5
       },
       {
-        "message": "Bagh, jungle ra nadi ko surakshya hamro jimmedari ho.",
+        "message": "Hajur, AI dherai exciting chha. Tapaile k cha interest?",
         "date": "2024-02-01T01:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Sthaniya byabastha le swachhata ma dhyan dinu parcha.",
+        "message": "Malai machine learning ko basics sikna man chha.",
         "date": "2024-02-01T02:00:00Z",
-        "sender": 100
+        "sender": 5
       },
       {
-        "message": "Harek nagarik le paryawaran ko rakshya ma yogdan dinu parcha.",
+        "message": "Machine learning ramro chha—data bata predict garna sikchha.",
         "date": "2024-02-01T03:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Gaun ko mela ma prakritik utpadan ko pradarshan dekhiyo.",
+        "message": "Hajur, ani tyo kasari kaam garchha?",
         "date": "2024-02-01T04:00:00Z",
         "sender": 5
       },
       {
-        "message": "Mero bichaar ma hamilai sustainable development apnau.",
+        "message": "Algorithms le patterns sikchha, jastai regression, classification.",
         "date": "2024-02-01T05:00:00Z",
-        "sender": 100
+        "sender": 51
       },
       {
-        "message": "Paryawaran ra sanskriti ek arka sanga juri raheko cha.",
+        "message": "Malai Python bata start garna man chha, thik chha?",
         "date": "2024-02-01T06:00:00Z",
         "sender": 5
       },
       {
-        "message": "Samudaayik karyakram le ekjutiko mahatwa dekhayo.",
+        "message": "Perfect, Python AI ko lagi best chha. Libraries jastai TensorFlow try garau.",
         "date": "2024-02-01T07:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Hami le naya park banayera bachau ko srijana garna sakchhau.",
+        "message": "TensorFlow ke ho? Kasto kaam ma use hunchha?",
         "date": "2024-02-01T08:00:00Z",
-        "sender": 100
+        "sender": 5
       },
       {
-        "message": "Gaun ko yuva haru le paryawaran ma dhyan dinu parcha.",
+        "message": "Yo deep learning ko library ho, image recognition jasto kaam ma amazing chha.",
         "date": "2024-02-01T09:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Sahakarya ra milap bata samudaay majboot hunchha.",
+        "message": "Cool, malai image recognition project banauna man chha.",
         "date": "2024-02-01T10:00:00Z",
         "sender": 5
       },
       {
-        "message": "Local sarkar le prakritik sansadhan ko surakshya garna thulo kadam cha.",
+        "message": "Ramro idea! Start with a simple digit recognizer.",
         "date": "2024-02-01T11:00:00Z",
-        "sender": 100
+        "sender": 51
       },
       {
-        "message": "Harek manchhe ko yogdan le farak parcha.",
+        "message": "Aja bata suru garchhu, tips dinu hola!",
         "date": "2024-02-01T12:00:00Z",
         "sender": 5
       },
       {
-        "message": "Pariyawaran ko pratiksha ma, naya soch awasyak cha.",
+        "message": "Sure, scikit-learn pani try gara for basics!",
         "date": "2024-02-01T13:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Samudaayik karyakram haru le mitrata badhaunchan.",
+        "message": "AI ko kura garda dherai kura sikiyo!",
         "date": "2024-02-01T14:00:00Z",
-        "sender": 100
+        "sender": 5
       },
       {
-        "message": "Gaun ma paryawaran surakshya sabai ko hit ho.",
+        "message": "Hajur, maza aayo!",
         "date": "2024-02-01T15:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Nadi ra jangal ko rakshya hami ko dayitwa ho.",
+        "message": "Next time robotics ko barema kura garau?",
         "date": "2024-02-01T16:00:00Z",
         "sender": 5
       },
       {
-        "message": "Paryawaran sambandhi kura ma jan jagriti badhaunu jaruri cha.",
+        "message": "Good idea, robotics pani cool chha!",
         "date": "2024-02-01T17:00:00Z",
-        "sender": 100
+        "sender": 51
       },
       {
-        "message": "Hamro sahanubhutiko kshetra badhaera samudaay majboot hunchha.",
+        "message": "Ok, feri bhetaula!",
         "date": "2024-02-01T18:00:00Z",
         "sender": 5
       },
       {
-        "message": "Aasha cha, hami milera prakritik sansadhan surakshit rakhne chau.",
+        "message": "See you!",
         "date": "2024-02-01T19:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Pariyawaran ko sangrakshan le bhavisya nirman garna madad garcha.",
-        "date": "2024-02-01T20:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Gaun ka bacha haru ma prakritik sikaunu awasyak cha.",
-        "date": "2024-02-01T21:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Sahakarya le samudaay ma naya aasha jagayo.",
-        "date": "2024-02-01T22:00:00Z",
-        "sender": 5
-      },
-      {
-        "message": "Local star haru le paryawaran ko suraksha ma agadi badhe.",
-        "date": "2024-02-01T23:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Gaun ko sanskriti ra prakriti ek arka sanga mel khanchan.",
-        "date": "2024-02-02T00:00:00Z",
-        "sender": 5
-      },
-      {
-        "message": "Mero vichaar ma, paryawaran ko suraksha nai pragati ko mool mantra ho.",
-        "date": "2024-02-02T01:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Samaya anusar, hami le naya pariyawaran yojana banaunu parcha.",
-        "date": "2024-02-02T02:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Gaun ko bikash ra prakritik surakshya sanga sangai hunchha.",
-        "date": "2024-02-02T03:00:00Z",
-        "sender": 50
+        "sender": 51
       }
     ]
   },
@@ -704,300 +529,110 @@
     "name": "Kamala Bhattarai",
     "email": "kamala.bhattarai@example.com",
     "phone": "9828901234",
-    "avatar": "https://i.pravatar.cc/300",
+    "avatar": "https://i.pravatar.cc/300?img=6",
     "address": "Birgunj, Nepal",
     "created_at": "2025-02-28T00:00:00Z",
     "last_online": "2025-02-28T08:55:30Z",
     "messages": [
       {
-        "message": "Technology ko naya update haru le aaja dherai prabhav paryo.",
+        "message": "Food ko barema kura garau aja?",
         "date": "2024-02-01T00:00:00Z",
         "sender": 6
       },
       {
-        "message": "Artificial intelligence ra machine learning ko kshetra ma agrima chha.",
+        "message": "Hajur, food discussion dherai ramro hunchha! Favorite dish k ho?",
         "date": "2024-02-01T01:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Software development ma agile methodology dherai upayogi bhayo.",
+        "message": "Malai Nepali dal bhat dherai man parchha.",
         "date": "2024-02-01T02:00:00Z",
-        "sender": 100
+        "sender": 6
       },
       {
-        "message": "Cloud computing le data storage ma naya disha diyeko cha.",
+        "message": "Dal bhat classic chha! Malai tarkari ma aloo man parchha.",
         "date": "2024-02-01T03:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Cyber security ko mahatwa dherai badheko cha.",
+        "message": "Hajur, ani achar pani thapda best hunchha.",
         "date": "2024-02-01T04:00:00Z",
         "sender": 6
       },
       {
-        "message": "Blockchain technology le transparency ko naya maapdanda set garyo.",
+        "message": "Totally, golbheda ko achar favorite chha?",
         "date": "2024-02-01T05:00:00Z",
-        "sender": 100
+        "sender": 51
       },
       {
-        "message": "Mobile app development le digital yug ma naya chalan layo.",
+        "message": "Ho, tyo dherai mitho hunchha. Tapaile banaunu hunchha?",
         "date": "2024-02-01T06:00:00Z",
         "sender": 6
       },
       {
-        "message": "Internet of Things le smart devices lai jodera kaam garirako cha.",
+        "message": "Hunchhu, simple recipe chha—tomato, garlic, chili.",
         "date": "2024-02-01T07:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Data analytics le business decision lai majboot banayo.",
+        "message": "Malai pani sikna man chha, share garnu na!",
         "date": "2024-02-01T08:00:00Z",
-        "sender": 100
+        "sender": 6
       },
       {
-        "message": "Tech startups haru le naya soch ra innovation lai janma diyera aage badhe.",
+        "message": "Sure, roast tomato, blend with spices—easy!",
         "date": "2024-02-01T09:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Virtual reality le entertainment ma naya anubhav diyeko cha.",
+        "message": "Aja try garchhu, result vanchu!",
         "date": "2024-02-01T10:00:00Z",
         "sender": 6
       },
       {
-        "message": "Augmented reality le shopping experience lai interactive banayo.",
+        "message": "Great, let me know kasto bhayo!",
         "date": "2024-02-01T11:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "5G connectivity le internet speed ma chamatkar garyo.",
+        "message": "International food ma Italian try gareko chhau?",
         "date": "2024-02-01T12:00:00Z",
-        "sender": 100
+        "sender": 6
       },
       {
-        "message": "Tech world ma startup culture dherai teji le badheko cha.",
+        "message": "Pizza ani pasta dherai khanchhu, tyaile?",
         "date": "2024-02-01T13:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Digital payment systems le vyapar ma asani layo.",
+        "message": "Malai sushi man parchha, tara Nepal ma rare chha.",
         "date": "2024-02-01T14:00:00Z",
         "sender": 6
       },
       {
-        "message": "Online education platform le sikaune paddhati badleko cha.",
+        "message": "Sushi cool chha, Ktm ma kehi thau chha hola.",
         "date": "2024-02-01T15:00:00Z",
-        "sender": 100
+        "sender": 51
       },
       {
-        "message": "Tech conference haru le global network banayo.",
+        "message": "Khojera herchu, food ko kura maza aayo!",
         "date": "2024-02-01T16:00:00Z",
         "sender": 6
       },
       {
-        "message": "Robotics le manufacturing sector ma automation badhaayo.",
+        "message": "Hajur, next time dessert ko barema?",
         "date": "2024-02-01T17:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Digital transformation le purano paddhati haru badli diyeko cha.",
+        "message": "Ramro idea, feri kura garau!",
         "date": "2024-02-01T18:00:00Z",
-        "sender": 100
+        "sender": 6
       },
       {
-        "message": "Tech innovation le yuva haru ma utsah jagayo.",
+        "message": "Ok, bye for now!",
         "date": "2024-02-01T19:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Data privacy ma dhyan diyera naya niyam banaune parcha.",
-        "date": "2024-02-01T20:00:00Z",
-        "sender": 6
-      },
-      {
-        "message": "Digital ecosystem ma collaboration anivarya cha.",
-        "date": "2024-02-01T21:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Software update le system lai secure ra stable banayo.",
-        "date": "2024-02-01T22:00:00Z",
-        "sender": 6
-      },
-      {
-        "message": "Tech blogs padhda industry trends samjhna sajilo bhayo.",
-        "date": "2024-02-01T23:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Innovation ko lagi research ma investment badhaunu parcha.",
-        "date": "2024-02-02T00:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Digital marketing le business lai global banauna sahayog garcha.",
-        "date": "2024-02-02T01:00:00Z",
-        "sender": 6
-      },
-      {
-        "message": "E-commerce platforms le shopping lai digital banayo.",
-        "date": "2024-02-02T02:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Tech innovations le samaya sanga sanga evolve garirako cha.",
-        "date": "2024-02-02T03:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Software development ma agile testing prabhavi cha.",
-        "date": "2024-02-02T04:00:00Z",
-        "sender": 6
-      },
-      {
-        "message": "Tech ecosystem ma collaboration le naya disha diyeko cha.",
-        "date": "2024-02-02T05:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Virtual collaboration tools le remote work asan banayo.",
-        "date": "2024-02-02T06:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Innovation labs le creative ideas lai aagadi badhauncha.",
-        "date": "2024-02-02T07:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Tech news portal haru le dinnai taja update dinchhan.",
-        "date": "2024-02-02T08:00:00Z",
-        "sender": 6
-      },
-      {
-        "message": "Artificial intelligence le daily life ma asar parna thalyo.",
-        "date": "2024-02-02T09:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Gadget review haru le kinna madad garcha.",
-        "date": "2024-02-02T10:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Tech startup haru le naya business model dikhayo.",
-        "date": "2024-02-02T11:00:00Z",
-        "sender": 6
-      },
-      {
-        "message": "Digital disruption le purano paddhati badli diyeko cha.",
-        "date": "2024-02-02T12:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Online collaboration le team work majboot banayo.",
-        "date": "2024-02-02T13:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Tech innovation ko lagi srijanatma approach jaruri cha.",
-        "date": "2024-02-02T14:00:00Z",
-        "sender": 6
-      },
-      {
-        "message": "Digital future ma naya opportunity haru dekhiyo.",
-        "date": "2024-02-02T15:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Software upgrade le user experience sudharyo.",
-        "date": "2024-02-02T16:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Tech seminar le industry experts lai ekatha garyo.",
-        "date": "2024-02-02T17:00:00Z",
-        "sender": 6
-      },
-      {
-        "message": "Innovation ma risk linu pani awasyak huncha.",
-        "date": "2024-02-02T18:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Digital tools le productivity ma vriddhi garyo.",
-        "date": "2024-02-02T19:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Future tech ko sambhavana dherai chha.",
-        "date": "2024-02-02T20:00:00Z",
-        "sender": 6
-      },
-      {
-        "message": "Research lab haru le naya discovery garna madad garcha.",
-        "date": "2024-02-02T21:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Digital transformation le purano industry lai naya disha diyeko cha.",
-        "date": "2024-02-02T22:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Technology le hami ko jeevan ma asar chhadiraheko cha.",
-        "date": "2024-02-02T23:00:00Z",
-        "sender": 6
-      },
-      {
-        "message": "Software innovation le aasha ko kiran jastai chamkyo.",
-        "date": "2024-02-03T00:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Digital era ma adaptability sabai bhanda jaruri cha.",
-        "date": "2024-02-03T01:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Tech trends le hami lai pragatisheel banayo.",
-        "date": "2024-02-03T02:00:00Z",
-        "sender": 6
-      },
-      {
-        "message": "Innovation ko lagi global collaboration awasyak cha.",
-        "date": "2024-02-03T03:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Tech industry ma aagami dinharu dherai promising chhan.",
-        "date": "2024-02-03T04:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Digital learning le naya skills sikauncha.",
-        "date": "2024-02-03T05:00:00Z",
-        "sender": 6
-      },
-      {
-        "message": "Tech world ko rapid change le man prabhavit garcha.",
-        "date": "2024-02-03T06:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Online forum haru le experts bich interaction badhauncha.",
-        "date": "2024-02-03T07:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Digital tools le innovation ko disha nirdesh garcha.",
-        "date": "2024-02-03T08:00:00Z",
-        "sender": 6
-      },
-      {
-        "message": "Technology le hami ko samaj lai aagadi badhauncha.",
-        "date": "2024-02-03T09:00:00Z",
-        "sender": 100
+        "sender": 51
       }
     ]
   },
@@ -1006,180 +641,110 @@
     "name": "Shyam Basnet",
     "email": "shyam.basnet@example.com",
     "phone": "9839012345",
-    "avatar": "https://i.pravatar.cc/300",
+    "avatar": "https://i.pravatar.cc/300?img=7",
     "address": "Bardiya, Nepal",
     "created_at": "2025-02-28T00:00:00Z",
     "last_online": "2025-02-28T11:35:45Z",
     "messages": [
       {
-        "message": "Swastha jeevan ko mahatwa bujhna jaruri cha.",
+        "message": "Gaming ko barema kura garau?",
         "date": "2024-02-01T00:00:00Z",
         "sender": 7
       },
       {
-        "message": "Healthy khana ra regular exercise le din ramaailo bancha.",
+        "message": "Hajur, gaming dherai fun chha! Favorite game k ho?",
         "date": "2024-02-01T01:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Yoga ra meditation le man ko shanti badhaunchan.",
+        "message": "Malai PUBG dherai man parchha, mobile ma khelda maza hunchha.",
         "date": "2024-02-01T02:00:00Z",
-        "sender": 100
+        "sender": 7
       },
       {
-        "message": "Medical check-up garna nabirsinu hola.",
+        "message": "PUBG intense chha! Chicken dinner payau ki nai?",
         "date": "2024-02-01T03:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Din bhar pani thulo matra ma pani pinu parcha.",
+        "message": "Hajur, dherai patak payau, tara solo ma struggle hunchha.",
         "date": "2024-02-01T04:00:00Z",
         "sender": 7
       },
       {
-        "message": "Healthy lifestyle le dherai energy dinchha.",
+        "message": "Solo tough chha, squad ma khelda easier hunchha.",
         "date": "2024-02-01T05:00:00Z",
-        "sender": 100
+        "sender": 51
       },
       {
-        "message": "Aushadhi ra prakritik upchar ko bich samjhauta garna mildaina.",
+        "message": "Malai pani squad ramro lagchha, tapai khelna hunchha?",
         "date": "2024-02-01T06:00:00Z",
         "sender": 7
       },
       {
-        "message": "Regular exercise le heart health majboot banauchha.",
+        "message": "Hunchhu, PUBG ID share garau ani khelaula!",
         "date": "2024-02-01T07:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Swastha jeevan ma sahi aahar ko thulo yogdan cha.",
+        "message": "Cool, pachi ID pathauchu!",
         "date": "2024-02-01T08:00:00Z",
-        "sender": 100
+        "sender": 7
       },
       {
-        "message": "Medical seminar le naya upchar paddhati haru sikaayo.",
+        "message": "Waiting chhu, aja khelna payo bhane maza hunchha.",
         "date": "2024-02-01T09:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Swasthya sambandhi news herera jagruk huna parcha.",
+        "message": "PC gaming pani try gareko chhau ki chaina?",
         "date": "2024-02-01T10:00:00Z",
         "sender": 7
       },
       {
-        "message": "Din bhar ko routine ma health check samay dinu parcha.",
+        "message": "GTA V kheleko chhu PC ma, graphics amazing chha!",
         "date": "2024-02-01T11:00:00Z",
-        "sender": 100
+        "sender": 51
       },
       {
-        "message": "Aaram ra yoga le sharir lai sustha banauchha.",
+        "message": "GTA V ko story dherai ramro chha, tapai lai kasto lagyo?",
         "date": "2024-02-01T12:00:00Z",
         "sender": 7
       },
       {
-        "message": "Healthy habits le man ra sharir dui nai ramro huncha.",
+        "message": "Story ani open world perfect chha, replay value dherai chha.",
         "date": "2024-02-01T13:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Aasha cha, yo healthy lifestyle sabai ma pariwartan lyauchha.",
+        "message": "Gaming ko kura garda time bitnai jado!",
         "date": "2024-02-01T14:00:00Z",
-        "sender": 100
+        "sender": 7
       },
       {
-        "message": "Swastha jeevan ko lagi thulo commitment chahinchha.",
+        "message": "Hajur, maza aayo!",
         "date": "2024-02-01T15:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Health experts le sahi aahar ra exercise ko mahatwa bujhayo.",
+        "message": "Next time esports ko barema kura garau?",
         "date": "2024-02-01T16:00:00Z",
         "sender": 7
       },
       {
-        "message": "Din bhar ko stress lai kam garna meditation upayogi cha.",
+        "message": "Ramro idea, tyo pani interesting chha!",
         "date": "2024-02-01T17:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Regular health camp le community ma jagrukta badhaunchha.",
+        "message": "Ok, feri bhetaula!",
         "date": "2024-02-01T18:00:00Z",
-        "sender": 100
+        "sender": 7
       },
       {
-        "message": "Healthy lifestyle le man, sharir, ra aatma lai santulit banauchha.",
+        "message": "See you soon!",
         "date": "2024-02-01T19:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Naya health research le upchar paddhati ma sudhar liyeko cha.",
-        "date": "2024-02-01T20:00:00Z",
-        "sender": 7
-      },
-      {
-        "message": "Swastha ko lagi dhyan diyera jeevan jeene parcha.",
-        "date": "2024-02-01T21:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Lifestyle changes le jeevan ma naya umang diyeko cha.",
-        "date": "2024-02-01T22:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Swastha rahera hami le samaj ma yogdan dinu parcha.",
-        "date": "2024-02-01T23:00:00Z",
-        "sender": 7
-      },
-      {
-        "message": "Regular physical activity le body lai fit rakhchha.",
-        "date": "2024-02-02T00:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Healthy mind ra body ko mel le safal jeevan banauchha.",
-        "date": "2024-02-02T01:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Din ko suruwat healthy breakfast bata garnu parcha.",
-        "date": "2024-02-02T02:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Swastha ko lagi aasha ra mehanat dherai jaruri cha.",
-        "date": "2024-02-02T03:00:00Z",
-        "sender": 7
-      },
-      {
-        "message": "Regular check-ups le bimari pakadna madad garcha.",
-        "date": "2024-02-02T04:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Healthy life style le jeevan ma positive energy lyauchha.",
-        "date": "2024-02-02T05:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Aasha chha, sabai le swastha jeevan apnaun.",
-        "date": "2024-02-02T06:00:00Z",
-        "sender": 7
-      },
-      {
-        "message": "Health awareness camp le samudaay ma prabhav chhayo.",
-        "date": "2024-02-02T07:00:00Z",
-        "sender": 100
-      },
-      {
-        "message": "Din bhar ko routine ma healthy habit anivarya huncha.",
-        "date": "2024-02-02T08:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Swastha rahera hi hami le pragati garna sakchhau.",
-        "date": "2024-02-02T09:00:00Z",
-        "sender": 7
+        "sender": 51
       }
     ]
   },
@@ -1188,85 +753,110 @@
     "name": "Arjun Bista",
     "email": "arjun.bista@example.com",
     "phone": "9851234567",
-    "avatar": "https://i.pravatar.cc/300",
+    "avatar": "https://i.pravatar.cc/300?img=8",
     "address": "Surkhet, Nepal",
     "created_at": "2025-02-28T00:00:00Z",
     "last_online": "2025-02-28T10:20:25Z",
     "messages": [
       {
-        "message": "Aaja ghar ma parivar sanga samaya bitayo.",
+        "message": "Music ko barema kura garau aja?",
         "date": "2024-02-01T00:00:00Z",
         "sender": 8
       },
       {
-        "message": "Bachha haru ko school bata ghar ma mitho katha sunayo.",
+        "message": "Hajur, music le mood banai dinchha! Favorite genre k ho?",
         "date": "2024-02-01T01:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Mero dhoka ma naya mehman aayo, swagat cha.",
+        "message": "Malai Nepali folk songs dherai man parchha.",
         "date": "2024-02-01T02:00:00Z",
-        "sender": 100
+        "sender": 8
       },
       {
-        "message": "Parivar sanga dinner pachi ramailo kura bhayo.",
+        "message": "Folk songs ko vibe alagai chha, koi special song?",
         "date": "2024-02-01T03:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Ghar ko sajawat ra swachhata ma dhyan diyeko chha.",
+        "message": "‘Resham Firiri’ dherai sunna man parchha.",
         "date": "2024-02-01T04:00:00Z",
         "sender": 8
       },
       {
-        "message": "Mero bahan sanga mitho yaad baata sanga kura bhayo.",
+        "message": "Tyoo classic chha! Malai pani man parchha.",
         "date": "2024-02-01T05:00:00Z",
-        "sender": 100
+        "sender": 51
       },
       {
-        "message": "Family outing ko plan banaunu man lagyo.",
+        "message": "Tapai lai international music kasto lagchha?",
         "date": "2024-02-01T06:00:00Z",
         "sender": 8
       },
       {
-        "message": "Ghar ko ambience le sabai lai santushti diyeko chha.",
+        "message": "Pop ani rock dherai sunchhu, jastai Coldplay.",
         "date": "2024-02-01T07:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Parivar sanga bitayeko samaya ananda le bharyo.",
+        "message": "Coldplay ko ‘Yellow’ malai pani man parchha!",
         "date": "2024-02-01T08:00:00Z",
-        "sender": 100
+        "sender": 8
       },
       {
-        "message": "Ghar ko khana ra mitho paribhasha sanga milyo.",
+        "message": "Tyoo song ko vibe amazing chha, live concert gayau?",
         "date": "2024-02-01T09:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Didi ra bhai sanga purano yaad haru share gare.",
+        "message": "Chaina, tara plan ma chha. Tapai?",
         "date": "2024-02-01T10:00:00Z",
         "sender": 8
       },
       {
-        "message": "Parivar ko preeti ra samarpan dherai mahatwapurna cha.",
+        "message": "Ma pani plan ma chu, Coldplay Nepal mai ayo bhane?",
         "date": "2024-02-01T11:00:00Z",
-        "sender": 100
+        "sender": 51
       },
       {
-        "message": "Aasha chha, hami sadhai ek arka sanga rahanchhau.",
+        "message": "Tyasto bhayo bhane ta jackpot hunchha!",
         "date": "2024-02-01T12:00:00Z",
-        "sender": 50
-      },
-      {
-        "message": "Ghar ko shanti le man lai chhuye.",
-        "date": "2024-02-01T13:00:00Z",
         "sender": 8
       },
       {
-        "message": "Aaja ko din parivar sanga mitho bityo.",
+        "message": "Hajur, imagine live ‘Viva La Vida’!",
+        "date": "2024-02-01T13:00:00Z",
+        "sender": 51
+      },
+      {
+        "message": "Music ko kura garda din bitiyo!",
         "date": "2024-02-01T14:00:00Z",
-        "sender": 50
+        "sender": 8
+      },
+      {
+        "message": "Hajur, maza aayo!",
+        "date": "2024-02-01T15:00:00Z",
+        "sender": 51
+      },
+      {
+        "message": "Next time movie ko barema kura garau?",
+        "date": "2024-02-01T16:00:00Z",
+        "sender": 8
+      },
+      {
+        "message": "Ramro idea, movies pani fun chha!",
+        "date": "2024-02-01T17:00:00Z",
+        "sender": 51
+      },
+      {
+        "message": "Ok, feri kura garau!",
+        "date": "2024-02-01T18:00:00Z",
+        "sender": 8
+      },
+      {
+        "message": "See you!",
+        "date": "2024-02-01T19:00:00Z",
+        "sender": 51
       }
     ]
   },
@@ -1275,70 +865,110 @@
     "name": "Parbati Oli",
     "email": "parbati.oli@example.com",
     "phone": "9862345678",
-    "avatar": "https://i.pravatar.cc/300",
+    "avatar": "https://i.pravatar.cc/300?img=9",
     "address": "Dipayal, Nepal",
     "created_at": "2025-02-28T00:00:00Z",
     "last_online": "2025-02-28T08:40:10Z",
     "messages": [
       {
-        "message": "Local khabar anusar, sahar ma naya yojana suru bhayo.",
+        "message": "Movies ko barema kura garau?",
         "date": "2024-02-01T00:00:00Z",
         "sender": 9
       },
       {
-        "message": "Sarkar le infrastructure ma sudhar ko ghoshana garyo.",
+        "message": "Hajur, movies dherai ramro timepass ho! Favorite k ho?",
         "date": "2024-02-01T01:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Traffic management ma dherai parivartan aako cha.",
+        "message": "Malai ‘3 Idiots’ dherai man parchha.",
         "date": "2024-02-01T02:00:00Z",
-        "sender": 100
+        "sender": 9
       },
       {
-        "message": "Local bazaar ma naya dukan haru khulna thaleko cha.",
+        "message": "Tyoo movie inspiring chha! ‘All is well’ favorite line ho?",
         "date": "2024-02-01T03:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "City development ko lagi budget allocate bhairahako cha.",
+        "message": "Hajur, tyo line le jiwan ma motivate garchha.",
         "date": "2024-02-01T04:00:00Z",
         "sender": 9
       },
       {
-        "message": "Public transport system ma upgrade ko karyakram suru bhayo.",
+        "message": "Sahi ho, malai pani Aamir Khan ko acting man parchha.",
         "date": "2024-02-01T05:00:00Z",
-        "sender": 100
+        "sender": 51
       },
       {
-        "message": "Local community le ramro sahayog diyeko cha.",
+        "message": "Tapai lai Hollywood movies kasto lagchha?",
         "date": "2024-02-01T06:00:00Z",
         "sender": 9
       },
       {
-        "message": "City planning ma naya initiative haru aayeko cha.",
+        "message": "‘Inception’ dherai herchu, dream within a dream cool chha!",
         "date": "2024-02-01T07:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Saharko vikas ko lagi sarkari yojana ramro chha.",
+        "message": "Tyoo movie confusing tara amazing chha!",
         "date": "2024-02-01T08:00:00Z",
-        "sender": 100
+        "sender": 9
       },
       {
-        "message": "Local news channel le bisthrit coverage diyeko cha.",
+        "message": "Hajur, ending samjhauna sakchhau?",
         "date": "2024-02-01T09:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Naya project le shehar ko drishya badli diyeko cha.",
+        "message": "Malai ta sapana ki real confuse bhayo!",
         "date": "2024-02-01T10:00:00Z",
         "sender": 9
       },
       {
-        "message": "Saharko development le naya opportunities create garyo.",
+        "message": "Tyahi mystery le movie special banayo!",
         "date": "2024-02-01T11:00:00Z",
-        "sender": 50
+        "sender": 51
+      },
+      {
+        "message": "Nepali movie ma k chai man parchha?",
+        "date": "2024-02-01T12:00:00Z",
+        "sender": 9
+      },
+      {
+        "message": "‘Loot’ dherai ramro lagyo, story fresh chha.",
+        "date": "2024-02-01T13:00:00Z",
+        "sender": 51
+      },
+      {
+        "message": "Hajur, tyo movie ko vibe alag chha!",
+        "date": "2024-02-01T14:00:00Z",
+        "sender": 9
+      },
+      {
+        "message": "Movies ko kura garda maza aayo!",
+        "date": "2024-02-01T15:00:00Z",
+        "sender": 51
+      },
+      {
+        "message": "Next time books ko barema kura garau?",
+        "date": "2024-02-01T16:00:00Z",
+        "sender": 9
+      },
+      {
+        "message": "Ramro idea, books pani interesting hunchha!",
+        "date": "2024-02-01T17:00:00Z",
+        "sender": 51
+      },
+      {
+        "message": "Ok, feri bhetaula!",
+        "date": "2024-02-01T18:00:00Z",
+        "sender": 9
+      },
+      {
+        "message": "See you!",
+        "date": "2024-02-01T19:00:00Z",
+        "sender": 51
       }
     ]
   },
@@ -1347,61 +977,144 @@
     "name": "Ganesh Paudel",
     "email": "ganesh.paudel@example.com",
     "phone": "9862345678",
-    "avatar": "https://i.pravatar.cc/300",
+    "avatar": "https://i.pravatar.cc/300?img=10",
     "address": "Parbat, Nepal",
     "created_at": "2025-02-28T00:00:00Z",
     "last_online": "2025-02-28T09:40:15Z",
     "messages": [
       {
-        "message": "Mero kitab haru ra lekhai ko shauk dherai gahiro chha.",
+        "message": "Books ko barema kura garau?",
         "date": "2024-02-01T00:00:00Z",
         "sender": 10
       },
       {
-        "message": "Sahitya ko mithas le man lai chhuune garo cha.",
+        "message": "Hajur, books padhda alagai maza hunchha! Favorite k ho?",
         "date": "2024-02-01T01:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Naya kavita le bhavana ko gehrai dekhayo.",
+        "message": "Malai ‘Sapiens’ by Yuval Noah Harari man parchha.",
         "date": "2024-02-01T02:00:00Z",
-        "sender": 100
+        "sender": 10
       },
       {
-        "message": "Lekhne paddhati ma naya soch ra navinata chha.",
+        "message": "Tyoo book deep chha! Human history ko insight kasto lagyo?",
         "date": "2024-02-01T03:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Kalakar haru le sahitya ma naya drishti diyera aayeka chhan.",
+        "message": "Hajur, hami kaha bata aayau bhanne kura amazing chha.",
         "date": "2024-02-01T04:00:00Z",
         "sender": 10
       },
       {
-        "message": "Mero lekhai bata anek kura bujhna sakinchha.",
+        "message": "Sahi ho, malai pani evolution part dherai man paryo.",
         "date": "2024-02-01T05:00:00Z",
-        "sender": 100
+        "sender": 51
       },
       {
-        "message": "Sahitya ko rangin duniya ma hami sabai khoj ma chhau.",
+        "message": "Tapai lai fiction books kasto lagchha?",
         "date": "2024-02-01T06:00:00Z",
         "sender": 10
       },
       {
-        "message": "Naya kitab padhna le dimaag lai taja banauchha.",
+        "message": "‘Harry Potter’ series dherai padheko chu, magical chha!",
         "date": "2024-02-01T07:00:00Z",
-        "sender": 50
+        "sender": 51
       },
       {
-        "message": "Lekhai le man ko darpan jasto kaam garcha.",
+        "message": "Tyoo series ta classic ho! Favorite character ko ho?",
         "date": "2024-02-01T08:00:00Z",
-        "sender": 100
+        "sender": 10
       },
       {
-        "message": "Sahitya ma kalpana ko nadi bahiraheko cha.",
+        "message": "Malai Hermione man parchha, smart chha!",
         "date": "2024-02-01T09:00:00Z",
-        "sender": 50
+        "sender": 51
+      },
+      {
+        "message": "Hajur, tyo character inspiring chha!",
+        "date": "2024-02-01T10:00:00Z",
+        "sender": 10
+      },
+      {
+        "message": "Nepali books ma k padheko chhau?",
+        "date": "2024-02-01T11:00:00Z",
+        "sender": 51
+      },
+      {
+        "message": "‘Palpasa Café’ dherai ramro lagyo.",
+        "date": "2024-02-01T12:00:00Z",
+        "sender": 10
+      },
+      {
+        "message": "Tyoo emotional chha, story kasto lagyo?",
+        "date": "2024-02-01T13:00:00Z",
+        "sender": 51
+      },
+      {
+        "message": "Realistic ani touching chha!",
+        "date": "2024-02-01T14:00:00Z",
+        "sender": 10
+      },
+      {
+        "message": "Books ko kura garda maza aayo!",
+        "date": "2024-02-01T15:00:00Z",
+        "sender": 51
+      },
+      {
+        "message": "Next time history ko barema kura garau?",
+        "date": "2024-02-01T16:00:00Z",
+        "sender": 10
+      },
+      {
+        "message": "Ramro idea, history pani fun chha!",
+        "date": "2024-02-01T17:00:00Z",
+        "sender": 51
+      },
+      {
+        "message": "Ok, feri kura garau!",
+        "date": "2024-02-01T18:00:00Z",
+        "sender": 10
+      },
+      {
+        "message": "See you soon!",
+        "date": "2024-02-01T19:00:00Z",
+        "sender": 51
       }
     ]
+  },
+  {
+    "user_id": 11,
+    "name": "Ram Thapa",
+    "email": "ganesh.paudel@example.com",
+    "phone": "9862345678",
+    "avatar": "https://i.pravatar.cc/300?img=11",
+    "address": "Parbat, Nepal",
+    "created_at": "2025-02-28T00:00:00Z",
+    "last_online": "2025-02-28T09:40:15Z",
+    "messages": []
+  },
+  {
+    "user_id": 12,
+    "name": "Sita Thapa",
+    "email": "sita@example.com",
+    "phone": "9862345678",
+    "avatar": "https://i.pravatar.cc/300?img=12",
+    "address": "Parbat, Nepal",
+    "created_at": "2025-02-28T00:00:00Z",
+    "last_online": "2025-02-28T09:40:15Z",
+    "messages": []
+  },
+  {
+    "user_id": 13,
+    "name": "Hari Thapa",
+    "email": "g@gmail.com",
+    "phone": "9862345678",
+    "avatar": "https://i.pravatar.cc/300?img=13",
+    "address": "Parbat, Nepal",
+    "created_at": "2025-02-28T00:00:00Z",
+    "last_online": "2025-02-28T09:40:15Z",
+    "messages": []
   }
 ]
