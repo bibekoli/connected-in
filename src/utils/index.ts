@@ -44,3 +44,30 @@ export const getTimeAgo = (timestamp: string | Date | null | undefined): string 
   const years = Math.floor(days / 365);
   return `${years} year${years !== 1 ? "s" : ""} ago`;
 };
+
+export const formatMessagesWithDateSeparators = (messages: any[]) => {
+  const formattedMessages: any[] = [];
+  let lastDate: string | null = null;
+
+  messages.forEach((msg) => {
+    const currentDate = new Date(msg.date).toLocaleDateString();
+
+    if (currentDate !== lastDate) {
+      formattedMessages.push({
+        id: `date-separator-${currentDate}`,
+        type: "date-separator",
+        date: currentDate,
+      });
+      lastDate = currentDate;
+    }
+
+    formattedMessages.push({
+      id: Date.now() + Math.random(),
+      text: msg.message,
+      sender: msg.sender,
+      time: new Date(msg.date).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
+    });
+  });
+
+  return formattedMessages;
+};
