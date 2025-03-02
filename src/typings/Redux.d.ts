@@ -5,4 +5,5 @@ type ReduxActions = {
 
 type ReduxState = {
   currentUser: User;
+  customers: User[];
 }
