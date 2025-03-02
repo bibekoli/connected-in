@@ -35,6 +35,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       const response = await loginService(credentials);
       setUser(response);
       localStorage.setItem("ci-auth-user", JSON.stringify(response));
+      dispatch(updateCurrentUser(response));
     }
     catch (error) {
       console.error("Login failed:", error);
