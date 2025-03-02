@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import { Layout, Menu, Dropdown, Avatar, Button, Drawer } from "antd";
-import { useNavigate, useLocation, Outlet } from "react-router-dom";
+import { useNavigate, useLocation, Outlet, Link } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
 import { DashboardOutlined, MessageOutlined, SettingOutlined, MenuOutlined } from "@ant-design/icons";
 import { useState, useEffect } from "react";
@@ -65,9 +65,11 @@ export default function DashboardLayout() {
   return (
     <Layout style={{ height: "100vh", overflow: "hidden" }}>
       <Header className="dashboard-header">
-        <div className="header-logo">
-          <img src="/logo.svg" alt="ConnectedIn" style={{ height: 40 }} />
-        </div>
+        <Link to="/dashboard" className="header-title">
+          <div className="header-logo">
+            <img src="/logo.svg" alt="ConnectedIn" style={{ height: 40 }} />
+          </div>
+        </Link>
         {
           isMobile ? (
             <Button
