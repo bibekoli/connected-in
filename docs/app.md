@@ -78,3 +78,7 @@ Redux is used in this app to maintain app state globally inside the app. Redux u
 - **Chat:** Just like a real chat system. Uses redux same thing as dashboard.
 - **Settings and Profile:** Demonstrates various input fields and dropdowns to update user profile and settings. The current user data is used as profile data and updated in the redux state.
 - **Logout:** Clears the local storage and redux state and redirects to the login page.
+
+## Video Demo
+
+[Watch the videos](https://drive.google.com/drive/folders/1kn77iJpFMcnJuj8ZyDkcVZd497Sr8t8M?usp=sharing)
